@@ -1,0 +1,98 @@
+.page_B {
+    width: 100%;
+    height: 40vh;
+    min-height: 45vh;
+    position: relative;
+    padding-top: 10vh;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_B .page_B_1 {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7vw;
+    color: #FFFFFF;
+
+}
+
+.page_B_1 .page_B_1_left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.page_B_1 .page_B_1_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.page_B_1 .page_B_1_right p {
+    width: 25vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 900;
+    color: #FFFFFF;
+
+}
+
+.page_B_1 .page_B_1_right .page_B_1_right_input_box {
+    width: 25vw;
+    height: 4vw;
+
+}
+
+.page_B_1 .page_B_1_right .page_B_1_right_input_box input {
+    background: #00000000;
+    border: none;
+    outline: none;
+    border-bottom: 0.5px solid silver;
+   
+    padding: 0 0.5vw;
+        color: #FFFFFF;
+
+}
+
+.page_B_1 .page_B_1_right .page_B_1_right_input_box input::placeholder {
+        color: #FFFFFF;
+
+}
+
+
+
+.page_B_2 {
+    width: 100%;
+    padding: 0 2vw;
+    margin-top: 15vw;
+    margin-bottom: 5vw;
+}
+
+.page_B_2 img {
+    object-fit: fill;
+}
+
+
+.page_B_3 {
+    width: 100%;
+    height: 5vw;
+    background: #CCCCCC00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 2vw;
+    border-top: px solid silver;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 900;
+    color: #FFFFFF;
+}

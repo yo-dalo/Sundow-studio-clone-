@@ -44,6 +44,12 @@ img {
     object-fit: cover;
 }
 
+input {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
 
 
 
@@ -193,7 +199,6 @@ hr {
 
 
 .red_box_1 {
-    background: #1B30D3;
     width: 40vw;
     height: 40vw;
     position: absolute;
@@ -202,7 +207,9 @@ hr {
     z-index: 4;
 
     filter: blur(20px);
-    background: #D31B60;
+          background: #FE320A;
+
+
 
 
     border-radius: 50%;
@@ -211,7 +218,8 @@ hr {
 
 
 .red_box_2 {
-    background: #D31BCE;
+       background: #FE320A;
+
     width: 40vw;
     height: 40vw;
     position: absolute;
@@ -220,13 +228,15 @@ hr {
     right: 4vw;
     z-index: 4;
     border-radius: 50%;
-    background: #D31B60;
+       background: #FE320A;
+
 
     animation: red_ani 2s ease-in-out alternate-reverse infinite;
 }
 
 .red_box_3 {
-    background: #D31B60;
+        background: #FE320A;
+
     width: 40vw;
     height: 40vw;
     right: -4vw;
@@ -263,7 +273,7 @@ hr {
     width: 100%;
     min-height: 10vh;
     margin: 6vw 0;
-
+    position: relative;
 }
 
 .moving_text {
@@ -350,6 +360,77 @@ hr {
     }
 
 }
+
+
+
+
+/* R_boxR_boxR_boxR_boxR_boxR_boxR_boxR_boxR_box */
+.R_box {
+    width: 40vw;
+    height: 40vw;
+        background: #FE320A;
+
+    position: absolute;
+    top: 56vw;
+    left: 10vw;
+    transform: translate(0, 0);
+    filter: blur(30px);
+    border-radius: 50%;
+    animation: R_box 7s linear alternate-reverse infinite;
+
+}
+
+
+.red_box_A {
+    animation: R_box 7s linear alternate-reverse infinite;
+
+}
+
+.red_box_B {
+    animation: R_box 7s linear alternate-reverse infinite;
+
+}
+
+.rad_box_C {
+    animation: R_box 5s linear alternate-reverse infinite;
+
+}
+
+.red_box_D {
+    animation: R_box 2s linear alternate-reverse infinite;
+
+}
+
+
+
+@keyframes R_box {
+    10% {
+        transform: translate(-3vw, -5vw);
+
+    }
+
+    20% {
+        transform: translate(-4vw, 3vw);
+    }
+
+    50% {
+        transform: translate(17w, -31vw);
+    }
+
+    75% {
+        transform: translate(12vw, 17vw);
+    }
+
+    100% {
+        transform: translate(12vw, -4vw);
+    }
+
+
+
+
+}
+
+
 
 
 
@@ -536,6 +617,76 @@ hr {
         font-size: 30px;
         font-weight: 700;
         line-height: 1.2;
+
+    }
+
+
+
+    .R_box {
+        width: 60vw;
+        height: 60vw;
+               background: #FE320A;
+
+        position: absolute;
+        top: 110vw;
+        left: 70%;
+        transform: translate(0, 0);
+        filter: blur(30px);
+        border-radius: 50%;
+        animation: R_box 7s linear alternate-reverse infinite;
+
+    }
+
+
+    .red_box_A {
+        animation: R_box 10s linear alternate-reverse infinite;
+
+    }
+
+    .red_box_B {
+        animation: R_box 7s linear alternate-reverse infinite;
+
+
+    }
+
+    .rad_box_C {
+        animation: R_box 5s linear alternate-reverse infinite;
+
+    }
+
+    .red_box_D {
+        animation: R_box 2s linear alternate-reverse infinite;
+
+    }
+
+
+
+
+
+    @keyframes R_box {
+        10% {
+            transform: translate(0vw, 10vw);
+
+        }
+
+        20% {
+            transform: translate(-30vw, 0vw);
+        }
+
+        50% {
+            transform: translate(0w, 10vw);
+        }
+
+        75% {
+            transform: translate(1vw, 20vw);
+        }
+
+        100% {
+            transform: translate(1vw, 1vw);
+        }
+
+
+
 
     }
 
