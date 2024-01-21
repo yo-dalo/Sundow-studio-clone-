@@ -1,0 +1,28 @@
+.scroller {
+  width: 100%;
+  height: 50vw;
+  background: #E3E277;
+  margin: 22vw 0;
+
+}
+
+.scroller .scroller_ {
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+.scroller_box{
+  max-width: 80%;
+  height: 100%;
+  background: #40A2B787;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroller_box .scroller_img{
+  width: 50%;
+  height: 2vw;
+}
