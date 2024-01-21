@@ -9,6 +9,13 @@
 }
 
 
+@font-face {
+    font-family: pop_2;
+    src: url(neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBlack.ttf);
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
