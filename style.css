@@ -1,8 +1,12 @@
 @font-face {
     font-family: pop;
-    src: url(/Poppins-Regular.ttf);
+    src: url(neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf);
 }
 
+@font-face {
+    font-family: pop_1;
+    src: url(neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayLight.ttf);
+}
 
 
 * {
@@ -125,6 +129,7 @@ nav .right_nav>div:hover h2 {
     font-size: 22px;
     width: 80%;
     line-height: 1.2;
+
 }
 
 
@@ -256,7 +261,7 @@ hr {
 
 .page_2 {
     width: 100%;
-    min-height: 100vh;
+    min-height: 10vh;
     margin: 6vw 0;
 
 }
@@ -327,6 +332,7 @@ hr {
     width: 40vw;
     font-size: 20px;
     text-align: left;
+
 }
 
 
@@ -461,9 +467,12 @@ hr {
 
     .page_2 {
         width: 100%;
-        min-height: 150vh;
+        min-height: 100vh;
         margin: 6vw 0;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30vw;
 
     }
 
@@ -493,15 +502,16 @@ hr {
         text-align: left;
         padding: 0;
     }
-    
-        .p_3_div_1 h1{
-            text-align: left;
-            white-space: normal;
-                    width: 80%;
-        font-size: 5vw;
-        font-weight: 500;
 
-        }
+    .p_3_div_1 h1 {
+        text-align: left;
+        white-space: normal;
+        width: 80%;
+        font-size: 4vw;
+        font-weight: 500;
+        font-family: pop_1;
+
+    }
 
 
     .p_3_div_2 {
@@ -526,6 +536,7 @@ hr {
         font-size: 30px;
         font-weight: 700;
         line-height: 1.2;
+
     }
 
 
