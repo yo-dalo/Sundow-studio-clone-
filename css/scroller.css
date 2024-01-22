@@ -1,28 +1,68 @@
+
+
+
+
 .scroller {
   width: 100%;
-  height: 50vw;
-  background: #E3E277;
-  margin: 22vw 0;
-
+  height: 70vw;
+  margin: 8vw 0;
+  color: #000;
+  background: #BEBEBEA6;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+.scroller li{
+   font-size: 3vw;
+     margin: 8vw 0;
+   list-style: none;
+   padding: 4vw 3vw;
+   
 }
 
-.scroller .scroller_ {
-  width: 100%;
-  height: 50vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: scroll;
+
+
+.scroller_{
+    width: 100%;
+   min-height: 30vw;
+    display: flex;
+    
+    overflow-x: scroll;
+   
 }
+
 .scroller_box{
-  max-width: 80%;
-  height: 100%;
-  background: #40A2B787;
-  display: flex;
-  flex-direction: column;
+    min-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2vw;
+    align-items: stretch;
+    border-left: 1.5px solid silver;
 }
 
 .scroller_box .scroller_img{
-  width: 50%;
-  height: 2vw;
+    width: 16vw;
+    height: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroller_box .scroller_img img {
+    object-fit: contain;
+}
+.scroller_info {
+
+}
+
+
+.scroller_info p{
+    font-size: 2vw;
+    font-family: pop_1;
+    width: 90%;
+    flex: 1;
+    font-weight: 700;
+   line-height: 1.5;
+    
 }
